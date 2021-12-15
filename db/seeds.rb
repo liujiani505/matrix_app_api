@@ -8,9 +8,13 @@
 
 
 Character.create([
-    { name: "Neo", description: "Neo is a fictional character and the protagonist of The Matrix franchise." },
-    { name: "Trinity", description: "Morpheus is a fictional character in The Matrix franchise." },
-    { name: "Morpheus", description: "Trinity is a fictional character in the Matrix franchise." },
-	{ name: "Agent Smith", description: "Agent Smith is a fictional character and the main antagonist of The Matrix franchise." },
+    { name: "Neo", description: "Neo is a fictional character and the protagonist of The Matrix franchise."},
+    { name: "Trinity", description: "Morpheus is a fictional character in The Matrix franchise."},
+    { name: "Morpheus", description: "Trinity is a fictional character in the Matrix franchise."},
+	{ name: "Agent Smith", description: "Agent Smith is a fictional character and the main antagonist of The Matrix franchise."},
+])
+
+Vehicle.create([
+    { name: "Nebuchadnezzar", style: "Spaceship"},
 ])
 
